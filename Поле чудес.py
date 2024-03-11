@@ -19,7 +19,7 @@ while inp != 'Exit' or inp != 'Выхлод':
     print([str(lettt) for lettt in inpfletts])
     while inpletts != lett:
       time += 1
-      if len(inplett) = 1:
+      if len(inplett) == 1:
         if inplett.isdigit():
           continue
         inpletts.append(input)
