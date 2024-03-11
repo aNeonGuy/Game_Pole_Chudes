@@ -1,6 +1,6 @@
 print('Pole Chudes')
 inp = '0'
-while inp != 'Exit' or int != 'Выхлод':
+while inp != 'Exit' or inp != 'Выхлод':
   print('Choose the language:')
   print('1 English')
   print('2 Russian')
