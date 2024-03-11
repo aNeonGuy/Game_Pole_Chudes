@@ -35,6 +35,8 @@ while inp != 'Exit' or int != 'Выхлод':
     word = dic.pop()
     lett = list(word)
     inplett = input()
+    print('Вы использовали эти буквы')
+    print([str(lettt) for lettt in intletts])
     while intletts != lett:
       time += 1
       if len(intlett) = 1:
