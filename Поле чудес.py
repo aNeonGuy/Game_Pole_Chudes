@@ -1,5 +1,4 @@
 print('Pole Chudes')
-print(' ')
 inp = '0'
 while inp != 'Exit' or int != 'Выхлод':
   print('Choose the language:')
