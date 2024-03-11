@@ -30,25 +30,29 @@ while inp != 'Exit' or int != 'Выхлод':
             \ 'убить', 'родной', 'открытый', 'менее', 'предложить', \
             \ 'желтый', 'приходиться', 'выпить', 'крикнуть', \
             \ 'трубка', 'враг', 'показывать']
-    intletts = []
+    inpletts = []
+    inpfletts = []
     tru = False
     word = dic.pop()
     lett = list(word)
+    print('Вам подходят эти буквы')
+    print([str(lettt) for lettt in int])
     inplett = input()
     print('Вы использовали эти буквы')
-    print([str(lettt) for lettt in intletts])
-    while intletts != lett:
+    print([str(lettt) for lettt in inpfletts])
+    while inpletts != lett:
       time += 1
-      if len(intlett) = 1:
-        if intlett.isdigit():
+      if len(inplett) = 1:
+        if inplett.isdigit():
           continue
-        intletts.append(input)
-        if len(intletts) == len(lett):
+        inpletts.append(input)
+        if len(inpletts) == len(lett):
           break
-      elif len(intlett) > 1:
-        if intlett == word:
+      elif len(inplett) > 1:
+        if inplett == word:
           tru = True
           break
+      inpfletts.append(inplett)
       inplett = input()
     if tru:
       print('Победа')
